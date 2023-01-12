@@ -7,11 +7,26 @@ h2{
   font-size: 12pt;
 }
 
+.wob{
+  display: flex;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bow{
+  display: flex;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+
 .wob1{
   display: flex;
   margin: auto;
-  width: 35.7142855vw;    /*71.428571 */
-  height: 35.7142855vw;
+  width: 71.428571vw;
+  height: 71.428571vh;
   background: white;
   border: 1px solid rgb(0, 0, 0);
 }
@@ -19,16 +34,16 @@ h2{
 .wob2{
   display: flex;
   margin: auto;
-  width: 21.42857vw;
-  height: 21.42857vw;
+  width: 42.857143vw;
+  height: 42.857143vh;
   background: rgb(0, 0, 0)
 }
 
 .wob3{
   display: flex;
   margin: auto;
-  width: 7.142857vw;
-  height: 7.142857vw;
+  width: 14.285714vw;
+  height: 14.285714vh;
   background: white;
 }
 
@@ -36,8 +51,8 @@ h2{
   display: flex;
   margin: auto;
   border-style: solid;
-  width: 35.7142855vw;
-  height: 35.7142855vw;
+  width: 71.428571vw;
+  height: 71.428571vh;
   background:white;
 }
 
@@ -45,16 +60,16 @@ h2{
   display: flex;
   margin: auto;
   border-style: solid;
-  width: 21.42857vw;
-  height: 21.42857vw;
+  width: 42.857143vw;
+  height: 42.857143vh;
   background: white;
 }
 
 .bow3{
   display: flex;
   margin: auto;
-  width: 7.142857vw;
-  height: 7.142857vw;
+  width: 14.285714vw;
+  height: 14.285714vh;
   background: rgb(0, 0, 0);
 }
 
