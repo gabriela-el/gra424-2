@@ -25,10 +25,10 @@ h2{
 .wob1{
   display: flex;
   margin: auto;
+  border: .75pt solid;
   width: 71.428571vw;
   height: 71.428571vh;
   background: white;
-  border: 1px solid rgb(0, 0, 0);
 }
 
 .wob2{
@@ -50,7 +50,7 @@ h2{
 .bow1{
   display: flex;
   margin: auto;
-  border-style: solid;
+  border: .75pt solid;
   width: 71.428571vw;
   height: 71.428571vh;
   background:white;
@@ -59,7 +59,7 @@ h2{
 .bow2{
   display: flex;
   margin: auto;
-  border-style: solid;
+  border: .25pt solid gray;
   width: 42.857143vw;
   height: 42.857143vh;
   background: white;
