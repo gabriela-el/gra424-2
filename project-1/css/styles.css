@@ -25,7 +25,7 @@ h2{
 .wob1{
   display: flex;
   margin: auto;
-  border: .75pt solid;
+  border: .5pt solid;
   width: 71.428571vw;
   height: 71.428571vh;
   background: white;
@@ -50,7 +50,7 @@ h2{
 .bow1{
   display: flex;
   margin: auto;
-  border: .75pt solid;
+  border: .5pt solid;
   width: 71.428571vw;
   height: 71.428571vh;
   background:white;
@@ -59,7 +59,7 @@ h2{
 .bow2{
   display: flex;
   margin: auto;
-  border: .25pt solid gray;
+  border: .2pt solid gray;
   width: 42.857143vw;
   height: 42.857143vh;
   background: white;
@@ -102,4 +102,54 @@ h2{
   height: 42.857143vh;
   margin: auto;
   margin-right: 0;
+}
+
+.subtraction1{
+  display: flex;
+  margin: auto;
+  padding-top: 8rem;
+  border: .75pt solid;
+  width: 71.428571vw;
+  height: 71.428571vh;
+}
+
+.container{
+  display: flex;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bordersquare{
+  display: flex;
+  margin: auto;
+  border: .5pt solid;
+  width:71.428571vw;
+  height: 71.428571vh;
+}
+
+.outersquare{
+  display: flex;
+  background: white;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin: auto;
+}
+
+.innersquare{
+  display: flex;
+  margin: auto;
+  width: 14.285714vw;
+  height: 14.285714vh;
+  margin-left: 14.285714vw;
+  margin-top: 14.285714vh;
+  position: absolute;
+  fill: white;
+}
+
+svg{
+  display: flex;
+  margin: auto;
+  width: 14.285714vw;
+  height: 14.285714vh;
 }
