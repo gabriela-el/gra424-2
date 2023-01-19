@@ -155,3 +155,10 @@ h2{
   width:71.428571vw;
   height: 71.428571vh;
 }
+
+.subtractionsquare{
+  display: flex;
+  margin: auto;
+  width:71.428571vw;
+  height: 71.428571vh;
+}
