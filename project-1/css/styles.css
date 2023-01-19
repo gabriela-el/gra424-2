@@ -162,3 +162,17 @@ h2{
   width:71.428571vw;
   height: 71.428571vh;
 }
+
+.colormatching{
+  display: flex;
+  margin: auto;
+  width:71.428571vw;
+  height: 71.428571vh;
+}
+
+.valuematching{
+  display: flex;
+  margin: auto;
+  width:71.428571vw;
+  height: 71.428571vh;
+}
