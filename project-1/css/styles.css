@@ -163,11 +163,31 @@ h2{
   height: 71.428571vh;
 }
 
+.hover-img{
+  margin: auto;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin-left: 14.285714vw;
+  margin-top: 14.285714vh;
+  object-fit: cover;
+  
+}
+
 .colormatching{
   display: flex;
-  margin: auto;
+  position:absolute;
   width:71.428571vw;
   height: 71.428571vh;
+}
+
+.colormatching img{
+  width: 42.857143vw;
+  height: 42.857143vh;
+  object-fit: cover;
+}
+
+.colormatching:hover{
+  opacity: 0;
 }
 
 .valuematching{
@@ -218,3 +238,45 @@ h2{
   width:71.428571vw;
   height: 71.428571vh;
 }
+
+.flaphover:hover{
+  opacity: 0;
+}
+
+.flaphover svg{
+  display: flex;
+  width:71.428571vw;
+  height: 71.428571vh;
+  margin-top: 14.285714vh;
+  margin-left: 14.285714vw;
+
+}
+
+.flaphover{
+  display: flex;
+  position:absolute;
+  width: 71.428571vw;
+  height: 71.428571vh;
+}
+
+.flaphover2:hover{
+  opacity: 0;
+}
+
+.flaphover2 svg{
+  display: flex;
+  width:71.428571vw;
+  height: 71.428571vh;
+  margin-top: 14.285714vh;
+  margin-left: 14.285714vw;
+
+}
+
+.flaphover2{
+  display: flex;
+  position:absolute;
+  width: 71.428571vw;
+  height: 71.428571vh;
+}
+
+
