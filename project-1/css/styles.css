@@ -164,13 +164,22 @@ h2{
 }
 
 .hover-img{
-  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
   width: 42.857143vw;
   height: 42.857143vh;
   margin-left: 14.285714vw;
   margin-top: 14.285714vh;
+  margin: auto;
+}
+
+.image{
+  position: absolute;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin: auto;
   object-fit: cover;
-  
+  opacity: 0%;
 }
 
 .colormatching{
@@ -180,14 +189,8 @@ h2{
   height: 71.428571vh;
 }
 
-.colormatching img{
-  width: 42.857143vw;
-  height: 42.857143vh;
-  object-fit: cover;
-}
-
-.colormatching:hover{
-  opacity: 0;
+.image:hover{
+  opacity: 1;
 }
 
 .valuematching{
