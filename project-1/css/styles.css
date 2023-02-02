@@ -242,13 +242,14 @@ h2{
   height: 71.428571vh;
 }
 
-.flaphover:hover{
+.flaphoverflap:hover{
   opacity: 0;
   
 }
 
-.flaphover svg{
+.flaphoverflap {
   display: flex;
+  position: absolute;
   width:71.428571vw;
   height: 71.428571vh;
   margin-top: 14.285714vh;
@@ -263,12 +264,13 @@ h2{
   height: 71.428571vh;
 }
 
-.flaphover2:hover{
+.flaphover2flap:hover{
   opacity: 0;
 }
 
-.flaphover2 svg{
+.flaphover2flap {
   display: flex;
+  position: absolute;
   width:71.428571vw;
   height: 71.428571vh;
   margin-top: 14.285714vh;
